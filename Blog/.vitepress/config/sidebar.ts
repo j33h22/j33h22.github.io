@@ -26,6 +26,14 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/Articles/Experiences/": [
+    {
+      text: "心得文",
+      items: [
+        { text: "首页", link: "/Articles/Experiences/" },
+      ],
+    },
+  ],
   "/Articles/TheRoadOfDesign/": [
     {
       text: "设计之路",
