@@ -21,7 +21,7 @@ hero:
 features:
   - title: 一个能支撑很长一段时间的博客
     icon: <i class="fa-solid fa-server"></i>
-    details: 网站部署在Vercel,使用了被DNS污染的 *.vercel.ap 域名，eu.org域名正在申请中
+    details: 网站部署在Github Pages,使用了被DNS污染的 *.github.io 域名，eu.org域名正在申请中
   - title: 优质废文分享
     icon: <i class="fa-solid fa-newspaper"></i>
     details: 优质废文都在这里了，什么技术文，发电文，心得文
