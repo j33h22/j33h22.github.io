@@ -18,6 +18,22 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  "/Articles/Technolgies/": [
+    {
+      text: "技术文",
+      items: [
+        { text: "首页", link: "/Articles/Technolgies/" },
+      ],
+    },
+  ],
+  "/Articles/TheRoadOfDesign/": [
+    {
+      text: "设计之路",
+      items: [
+        { text: "首页", link: "/Articles/TheRoadOfDesign/" },
+      ],
+    },
+  ],
 };
 
 Object.assign(
