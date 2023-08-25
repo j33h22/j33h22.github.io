@@ -23,7 +23,7 @@ export default defineConfig({
   },
   buildEnd: ({ outDir }) => {
     // you need to change hostname to your domain
-    const sitemap = new SitemapStream({ hostname: 'https://ju33huang22.vercel.app/' })
+    const sitemap = new SitemapStream({ hostname: 'https://j33h22.github.io' })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
     sitemap.pipe(writeStream)
     links.forEach((link) => sitemap.write(link))
