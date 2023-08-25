@@ -1,10 +1,5 @@
 import { DefaultTheme } from "vitepress";
 
-// 导入文件模块
-let fs = require("fs")
-// 导入yaml模块
-let yaml = require("js-yaml")
-
 const sidebarConfig: DefaultTheme.Sidebar = {
   "/About/": [
     {
