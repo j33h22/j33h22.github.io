@@ -44,4 +44,4 @@ jobs:
         with:
           folder: Blog/.vitepress/dist
           branch: gh-pages
-          cname: fakemirrorfm.github.io
+          cname: j33h22.github.io
