@@ -2,6 +2,7 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
+import Walineinit from '../../components/Walineinit.vue'
 
 const { Layout } = DefaultTheme
 
@@ -18,6 +19,9 @@ const { frontmatter } = useData() //这里的frontmatter就是各个md文件中�
         🔗
         <span class="page-info" v-for="item in frontmatter.tags" :key="item">{{ item }}</span>
       </span>
+    </template>
+    <template #doc-after>
+      <Walineinit />
     </template>
   </Layout>
 </template>
