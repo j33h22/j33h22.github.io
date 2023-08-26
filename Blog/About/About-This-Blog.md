@@ -14,3 +14,4 @@
 
 ## 致谢
 感谢 [清风徐来](https://github.com/shelley-xl) 提供了部分技术支持
+感谢 [Younglina aka littlear](https://github.com/Younglina) 放出了VitePress搭建个人博客的方案
