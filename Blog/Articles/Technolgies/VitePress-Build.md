@@ -6,6 +6,8 @@ categories:
  - 技术文
 tags:
  - VitePress
+ - JavaScript
+ - Vue.js
 ---
 
 # 起因

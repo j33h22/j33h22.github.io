@@ -6,6 +6,8 @@ categories:
  - 技术文
 tags:
  - VitePress
+ - JavaScript
+ - Vue.js
 ---
 
 # 什么是标签云（aka 分类云）？

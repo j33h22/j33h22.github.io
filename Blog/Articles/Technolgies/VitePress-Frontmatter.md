@@ -6,6 +6,8 @@ categories:
  - 技术文
 tags:
  - VitePress
+ - JavaScript
+ - Vue.js
 ---
 # 开头
 接上回搞好了VitePress的博客化，继续来做自定义
