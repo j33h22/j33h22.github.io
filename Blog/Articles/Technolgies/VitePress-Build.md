@@ -627,17 +627,7 @@ Parsed 1 documents. JSON data written to ./Blog/components/docs.json # 最后输
 #### frontmatter
 这里要注意一下没有 frontmatter 的 Markdown 文件它是不会检测的，不过他用到的主题需要你也不可能不写，格式大概是这样的
 
-```yaml
----
-title: VitePress博客折腾日记
-author: Ju33Huang22
-date: '2023-08-26'
-categories:
- - 心得文
-tags:
- - VitePress
----
-```
+（恕我不能在这里直接贴yaml,因为傻逼脚本的问题他检测到了两个frontmatter,你可以直接到我的[博客原始码](https://github.com/j33h22/j33h22.github.io/blob/master/Blog/Articles/Technolgies/VitePress-Build.md)查看，最顶部就是了）
 
 # 尾巴
 这样到这里就差不多大功告成了
