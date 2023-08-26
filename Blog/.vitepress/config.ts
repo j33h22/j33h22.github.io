@@ -53,6 +53,12 @@ export default defineConfig({
         link: "https://github.com/j33h22",
       }
     ],
+    // 编辑文档链接
+     editLink: {
+       pattern:
+         "https://github.com/j33h22/j33h22.github.io/edit/master/Blog/:path",
+       text: "在 Github 上编辑此文件",
+     },
     // 搜索
     search: {
       provider: "local",
