@@ -1,14 +1,14 @@
 [
   {
-    "title": "通过gitbash配置快捷指令",
-    "author": "Younglina",
-    "date": "2022-09-07",
+    "title": "VitePress博客折腾日记",
+    "author": "Ju33Huang22",
+    "date": "2023-08-26",
     "categories": [
-      "文档"
+      "技术文"
     ],
     "tags": [
-      "小技巧"
+      "VitePress"
     ],
-    "link": "/littlear"
+    "link": "/Articles/Technolgies/VitePress-Build"
   }
 ]
