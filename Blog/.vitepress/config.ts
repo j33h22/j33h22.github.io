@@ -47,6 +47,10 @@ export default defineConfig({
       {
         icon: "twitter",
         link: "https://twitter.com/Ju33Huang22",
+      },
+      {
+        icon: "github",
+        link: "https://github.com/j33h22",
       }
     ],
     // 搜索
