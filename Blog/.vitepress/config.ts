@@ -44,6 +44,10 @@ export default defineConfig({
         },
         link: "https://t.me/Ju33Huang22",
       },
+      {
+        icon: "twitter",
+        link: "https://twitter.com/Ju33Huang22",
+      }
     ],
     // 搜索
     search: {
