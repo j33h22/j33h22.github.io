@@ -27,11 +27,11 @@ interface VitePressData {
 }
 ```
 
-## frontmatterlayout.vue
+## layout.vue
 新建该文件到 `.vitepress/theme/`
 
 ```javascript
-<!--.vitepress/theme/frontmatter.vue-->
+.vitepress/theme/layout.vue
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
@@ -67,7 +67,7 @@ const { frontmatter } = useData() //这里的frontmatter就是各个md文件中�
 然后引入模块到 `.vitepress/theme/index.ts`
 
 ```typescript
-import FrontmatterLayout from './frontmatterlayout.vue'
+import layout from './layout.vue'
 ```
 
 将原本自带的这段删掉
@@ -86,7 +86,7 @@ export default {
 ```typescript
 export default {
 //...
-Layout: FrontmatterLayout,
+Layout: layout,
 //...
 ```
 
@@ -97,7 +97,7 @@ import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
 import './custom.css'
-import FrontmatterLayout from './frontmatterlayout.vue'
+import layout from './layout.vue'
 
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/reset.css';
@@ -108,7 +108,7 @@ import Walineinit from '../../components/Walineinit.vue';  // 这是我自己引
 
 export default {
   extends: Theme,
-  Layout: FrontmatterLayout,
+  Layout: layout,
   enhanceApp({ app, router, siteData }) {
     // ...
     app.use(Antd);

@@ -85,7 +85,6 @@ export default {
 
 ```javascript
 // .vitepress/theme/layout.vue
-<!--.vitepress/theme/frontmatter.vue-->
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
