@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
+import './custom.css'
 
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/reset.css';

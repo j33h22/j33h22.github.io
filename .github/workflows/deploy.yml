@@ -36,6 +36,10 @@ jobs:
       - name: Install dependencies ⚡️
         run: pnpm install --frozen-lockfile
 
+      - name: Re-get the all of data of document 🛠️
+        run: rm ./Blog/components/docs.json
+             node readMD.js
+
       - name: Build 🛠️
         run: pnpm docs:build
 

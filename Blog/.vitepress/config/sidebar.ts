@@ -10,38 +10,6 @@ const sidebarConfig: DefaultTheme.Sidebar = {
       ],
     },
   ],
-  "/Articles/JustSomeShit/": [
-    {
-      text: "发电文",
-      items: [
-        { text: "首页", link: "/Articles/JustSomeShit/" },
-      ],
-    },
-  ],
-  "/Articles/Technolgies/": [
-    {
-      text: "技术文",
-      items: [
-        { text: "首页", link: "/Articles/Technolgies/" },
-      ],
-    },
-  ],
-  "/Articles/Experiences/": [
-    {
-      text: "心得文",
-      items: [
-        { text: "首页", link: "/Articles/Experiences/" },
-      ],
-    },
-  ],
-  "/Articles/TheRoadOfDesign/": [
-    {
-      text: "设计之路",
-      items: [
-        { text: "首页", link: "/Articles/TheRoadOfDesign/" },
-      ],
-    },
-  ],
 };
 
 Object.assign(
