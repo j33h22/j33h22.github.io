@@ -8,7 +8,7 @@ import { computed, onMounted } from 'vue';
   
 import '@waline/client/dist/waline.css';
   
-const serverURL = 'https://waline.nekotakus.com';
+const serverURL = 'https://waline-eight-gules.vercel.app';
 
 
 onMounted(()=>{
