@@ -49,6 +49,10 @@ export default defineConfig({
         link: "https://twitter.com/Ju33Huang22",
       },
       {
+        icon: "facebook",
+        link: "https://www.facebook.com/profile.php?id=61550932586101",
+      },
+      {
         icon: "github",
         link: "https://github.com/j33h22",
       }
