@@ -19,6 +19,10 @@ tags:
 
 非常感谢大佬的付出。
 
+小捐款截图：
+
+![](/img/articles/CR660X-SWRT-Merlin/photo_2023-09-16_09-02-54.jpg)
+
 # 正篇
 本文不打算介绍关于CR660X的刷机方法，其实都差不多，刷入Padorabox后就丢个trx固件进去开刷就完事了
 
