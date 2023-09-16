@@ -12,13 +12,13 @@ const { frontmatter } = useData() //这里的frontmatter就是各个md文件中�
 <template>
   <Layout>
     <template #doc-before>
-      <span class="page-info"><font size="+3">📰{{ frontmatter.title }}</font></span><br>
+      <span class="page-info"><font size="+2">{{ frontmatter.title }}</font></span><br><br>
       <span class="page-info">✍️{{ frontmatter.author }}</span>
       <span class="page-info">🕐{{ frontmatter.date }}</span>
       <span>
         🔗
         <span class="page-info" v-for="item in frontmatter.tags" :key="item">{{ item }}</span>
-      </span>
+      </span><br><br>
     </template>
     <template #doc-after>
       <Walineinit />
